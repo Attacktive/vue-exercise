@@ -1,6 +1,7 @@
 import js from "@eslint/js";
 import ts from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
+import globals from "globals";
 
 /** @type {import("eslint").Linter.FlatConfig[]} */
 export default ts.config(
@@ -20,7 +21,8 @@ export default ts.config(
 				project: "./tsconfig.json",
 				extraFileExtensions: [".vue"],
 				sourceType: "module"
-			}
+			},
+			globals: globals.browser
 		}
 	},
 	{
