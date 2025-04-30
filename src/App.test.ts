@@ -7,12 +7,10 @@ vi.mock(
 	async () => {
 		return {
 			RouterView: {
-				render: () => {
-				}
+				render: () => {}
 			},
 			RouterLink: {
-				render: () => {
-				}
+				render: () => {}
 			}
 		};
 	});
@@ -33,7 +31,7 @@ describe(
 						const matches = /(\w+) did it!/.exec(text);
 						expect(matches).toBeTruthy();
 
-						const [_, subject] = Array.from(matches as RegExpExecArray);
+						const [, subject] = Array.from(matches as RegExpExecArray);
 						subjects.delete(subject);
 
 						count++;
@@ -44,7 +42,6 @@ describe(
 					},
 					1000
 				);
-
 			}
 		);
 	}
