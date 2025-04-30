@@ -1,6 +1,10 @@
 # vue-exercise
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/905f834b630348efa8828f8500dca7a4)](https://app.codacy.com/gh/Attacktive/vue-exercise/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/attacktive/vue-exercise/badge/main)](https://www.codefactor.io/repository/github/attacktive/vue-exercise/overview/main)
+[![Vitest](https://github.com/Attacktive/vue-exercise/actions/workflows/vitest.yaml/badge.svg)](https://github.com/Attacktive/vue-exercise/actions/workflows/vitest.yaml)
+[![ESLint](https://github.com/Attacktive/vue-exercise/actions/workflows/eslint.yaml/badge.svg)](https://github.com/Attacktive/vue-exercise/actions/workflows/eslint.yaml)
+[![CodeQL](https://github.com/Attacktive/vue-exercise/actions/workflows/codeql-analysis.yaml/badge.svg)](https://github.com/Attacktive/vue-exercise/actions/workflows/codeql-analysis.yaml)
 [![Deploy to gh-pages](https://github.com/Attacktive/vue-exercise/actions/workflows/deploy.yaml/badge.svg?branch=main)](https://github.com/Attacktive/vue-exercise/actions/workflows/deploy.yaml)
 
 This template should help get you started developing with Vue 3 in Vite.
