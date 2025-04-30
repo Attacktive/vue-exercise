@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import WelcomeItem from "@/components/welcome/WelcomeItem.vue";
+import HomeItem from "@/components/home/HomeItem.vue";
 import DocumentationIcon from "@/components/icons/IconDocumentation.vue";
 import ToolingIcon from "@/components/icons/IconTooling.vue";
 import EcosystemIcon from "@/components/icons/IconEcosystem.vue";
@@ -8,16 +8,16 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 </script>
 
 <template>
-	<WelcomeItem>
+	<HomeItem>
 		<template #icon>
 			<DocumentationIcon />
 		</template>
 		<template #heading>Documentation</template>
 
 		Vue’s <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a> provides you with all information you need to get started.
-	</WelcomeItem>
+	</HomeItem>
 
-	<WelcomeItem>
+	<HomeItem>
 		<template #icon>
 			<ToolingIcon />
 		</template>
@@ -38,9 +38,9 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 		<br>
 
 		More instructions are available in <code>README.md</code>.
-	</WelcomeItem>
+	</HomeItem>
 
-	<WelcomeItem>
+	<HomeItem>
 		<template #icon>
 			<EcosystemIcon />
 		</template>
@@ -54,9 +54,9 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 		If you need more resources, we suggest paying
 		<a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
 		a visit.
-	</WelcomeItem>
+	</HomeItem>
 
-	<WelcomeItem>
+	<HomeItem>
 		<template #icon>
 			<CommunityIcon />
 		</template>
@@ -71,9 +71,9 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 		and follow the official
 		<a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
 		twitter account for latest news in the Vue world.
-	</WelcomeItem>
+	</HomeItem>
 
-	<WelcomeItem>
+	<HomeItem>
 		<template #icon>
 			<SupportIcon />
 		</template>
@@ -81,5 +81,5 @@ import SupportIcon from "@/components/icons/IconSupport.vue";
 
 		As an independent project, Vue relies on community backing for its sustainability. You can help us by
 		<a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-	</WelcomeItem>
+	</HomeItem>
 </template>
