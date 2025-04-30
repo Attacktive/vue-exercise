@@ -69,7 +69,7 @@ ij_xml_keep_whitespaces_inside_cdata = false
 ij_xml_line_comment_at_first_column = true
 ij_xml_space_after_tag_name = false
 ij_xml_space_around_equals_in_attribute = false
-ij_xml_space_inside_empty_tag = false
+ij_xml_space_inside_empty_tag = true
 ij_xml_text_wrap = normal
 
 [{*.ats,*.cts,*.mts,*.ts}]
@@ -242,14 +242,6 @@ ij_typescript_var_declaration_wrap = normal
 ij_typescript_while_brace_force = always
 ij_typescript_while_on_new_line = false
 ij_typescript_wrap_comments = false
-
-[{*.bash,*.sh,*.zsh}]
-ij_shell_binary_ops_start_line = false
-ij_shell_keep_column_alignment_padding = false
-ij_shell_minify_program = false
-ij_shell_redirect_followed_by_space = false
-ij_shell_switch_cases_indented = false
-ij_shell_use_unix_line_separator = true
 
 [{*.cjs,*.js}]
 ij_javascript_align_imports = false
@@ -460,12 +452,8 @@ ij_html_quote_style = double
 ij_html_remove_new_line_before_tags = br
 ij_html_space_after_tag_name = false
 ij_html_space_around_equality_in_attribute = false
-ij_html_space_inside_empty_tag = false
+ij_html_space_inside_empty_tag = true
 ij_html_text_wrap = normal
-
-[{*.http,*.rest}]
-indent_size = 0
-ij_http request_call_parameters_wrap = normal
 
 [{*.markdown,*.md}]
 ij_markdown_force_one_space_after_blockquote_symbol = true
