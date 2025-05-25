@@ -1,22 +1,6 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "@/components/hello-world/HelloWorld.vue";
-
-const subject = computed(() => {
-	if (secondsMod10.value < 5) {
-		return "You";
-	} else if (secondsMod10.value < 9) {
-		return "I";
-	} else {
-		return "Whoever";
-	}
-});
-
-const secondsMod10 = ref(0);
-setInterval(() => {
-	secondsMod10.value = new Date().getSeconds() % 10;
-}, 1000);
 </script>
 
 <template>
@@ -24,11 +8,10 @@ setInterval(() => {
 		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125">
 
 		<div class="wrapper">
-			<HelloWorld :message="`${subject} did it!`" />
+			<HelloWorld message="You did it!" />
 
 			<nav>
 				<RouterLink to="/">Home</RouterLink>
-				<RouterLink to="/about">About</RouterLink>
 				<RouterLink to="/repositories">Repositories</RouterLink>
 			</nav>
 		</div>
