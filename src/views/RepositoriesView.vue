@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 import TheRepositories from "@/components/repositories/TheRepositories.vue";
 </script>
 
