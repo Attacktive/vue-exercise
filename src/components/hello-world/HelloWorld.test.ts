@@ -3,7 +3,7 @@ import { mount } from "@vue/test-utils";
 import HelloWorld from "@/components/hello-world/HelloWorld.vue";
 
 describe(
-	"HelloWorld",
+	"HelloWorld.Vue",
 	() => {
 		it(
 			"renders properly",

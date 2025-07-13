@@ -16,18 +16,21 @@ const makeProviderWrapper = (value: Injection) => defineComponent({
 	}
 });
 
-describe("ProvideAndInject", () => {
-	it("renders the injected value when provided", () => {
-		const injected = { foo: "bar", numbers: [1, 2, 3] };
-		const wrapper = mount(makeProviderWrapper(injected));
+describe(
+	"ProvideAndInject.vue",
+	() => {
+		it("renders the injected value when provided", () => {
+			const injected = { foo: "bar", numbers: [1, 2, 3] };
+			const wrapper = mount(makeProviderWrapper(injected));
 
-		expect(wrapper.html())
-			.toContain(JSON.stringify(injected));
-	});
+			expect(wrapper.html())
+				.toContain(JSON.stringify(injected));
+		});
 
-	it("renders 'NOTHING' when no injection is provided", () => {
-		const wrapper = mount(ProvideAndInject);
+		it("renders 'NOTHING' when no injection is provided", () => {
+			const wrapper = mount(ProvideAndInject);
 
-		expect(wrapper.html()).toContain("NOTHING");
-	});
-});
+			expect(wrapper.html()).toContain("NOTHING");
+		});
+	}
+);
