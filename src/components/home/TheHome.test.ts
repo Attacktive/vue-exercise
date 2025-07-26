@@ -1,16 +1,16 @@
-import { describe, it, expect } from "vitest";
-import { mount } from "@vue/test-utils";
-import TheHome from "./TheHome.vue";
+import { describe, it, expect } from 'vitest';
+import { mount } from '@vue/test-utils';
+import TheHome from './TheHome.vue';
 
 const providedObject = {
-	name: "Attacktive",
-	petPeeves: ["crowd", "noisy coworkers"]
+	name: 'Attacktive',
+	petPeeves: ['crowd', 'noisy coworkers']
 };
 
 describe(
-	"TheHome.vue",
+	'TheHome.vue',
 	() => it(
-		"renders ProvideAndInject and displays the provided object",
+		'renders ProvideAndInject and displays the provided object',
 		() => {
 			const wrapper = mount(TheHome);
 

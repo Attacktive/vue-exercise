@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TheHome from "@/components/home/TheHome.vue";
+import TheHome from '@/components/home/TheHome.vue';
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import RepositoryItem from "@/components/repositories/RepositoryItem.vue";
+import RepositoryItem from '@/components/repositories/RepositoryItem.vue';
 </script>
 
 <template>

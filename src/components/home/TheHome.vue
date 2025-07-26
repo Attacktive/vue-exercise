@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { provide } from "vue";
-import HomeItem from "@/components/home/HomeItem.vue";
-import IconInjection from "@/components/icons/IconInjection.vue";
-import ProvideAndInject from "@/components/provide-and-inject/ProvideAndInject.vue";
+import { provide } from 'vue';
+import HomeItem from '@/components/home/HomeItem.vue';
+import IconInjection from '@/components/icons/IconInjection.vue';
+import ProvideAndInject from '@/components/provide-and-inject/ProvideAndInject.vue';
 
 const arbitraryObject = {
-	name: "Attacktive",
-	petPeeves: ["crowd", "noisy coworkers"]
+	name: 'Attacktive',
+	petPeeves: ['crowd', 'noisy coworkers']
 };
 
-provide("injection", arbitraryObject);
+provide('injection', arbitraryObject);
 </script>
 
 <template>

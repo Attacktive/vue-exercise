@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { computed, inject } from "vue";
+import { computed, inject } from 'vue';
 
-const injected = inject("injection");
+const injected = inject('injection');
 
 const stringified = computed(() => {
 	if (!injected) {
-		return "NOTHING";
+		return 'NOTHING';
 	}
 
 	try {

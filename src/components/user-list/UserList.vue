@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue';
 
 interface User {
 	id: number;
@@ -21,8 +21,8 @@ interface User {
 }
 
 const users = ref<User[]>([
-	{ id: 1, name: "Alice", age: 21 },
-	{ id: 2, name: "Bob", age: 25 },
-	{ id: 3, name: "Charlie", age: 66 }
+	{ id: 1, name: 'Alice', age: 21 },
+	{ id: 2, name: 'Bob', age: 25 },
+	{ id: 3, name: 'Charlie', age: 66 }
 ]);
 </script>

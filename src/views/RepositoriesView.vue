@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import TheRepositories from "@/components/repositories/TheRepositories.vue";
+import TheRepositories from '@/components/repositories/TheRepositories.vue';
 </script>
 
 <template>

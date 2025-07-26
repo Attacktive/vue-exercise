@@ -1,9 +1,9 @@
-import { describe, expect, it, vi } from "vitest";
-import { mount } from "@vue/test-utils";
-import App from "@/App.vue";
+import { describe, expect, it, vi } from 'vitest';
+import { mount } from '@vue/test-utils';
+import App from '@/App.vue';
 
 vi.mock(
-	"vue-router",
+	'vue-router',
 	async () => {
 		return {
 			RouterView: {
@@ -16,10 +16,10 @@ vi.mock(
 	});
 
 describe(
-	"App",
+	'App',
 	() => {
 		it(
-			"updates the subject correctly",
+			'updates the subject correctly',
 			() => {
 				const wrapper = mount(App);
 
@@ -27,7 +27,7 @@ describe(
 				let count = 1;
 				const intervalId = setInterval(
 					() => {
-						const text = wrapper.get(".wrapper > .greetings > h1").text();
+						const text = wrapper.get('.wrapper > .greetings > h1').text();
 						const matches = /(\w+) did it!/.exec(text);
 						expect(matches).toBeTruthy();
 
