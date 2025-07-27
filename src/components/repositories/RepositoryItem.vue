@@ -14,7 +14,7 @@ withDefaults(
 <template>
 	<li>
 		<slot name="pre-link" />
-		<a v-if="link" :href="link" target="_blank">{{ linkText }}</a>{{ trailingColon === true? ': ': '' }}
+		<a v-if="link" :href="link" target="_blank">{{ linkText }}</a>{{ trailingColon? ': ': '' }}
 		<slot name="post-link" />
 		<slot>
 			The default content is being shown.
@@ -24,6 +24,3 @@ withDefaults(
 	</li>
 </template>
 
-<style scoped>
-
-</style>

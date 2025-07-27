@@ -15,9 +15,14 @@ const router = createRouter({
 			component: () => import('@/views/RepositoriesView.vue')
 		},
 		{
-			path: "/users",
-			name: "users",
-			component: () => import("@/views/UserView.vue")
+			path: '/users',
+			name: 'users',
+			component: () => import('@/views/UserView.vue')
+		},
+		{
+			path: '/custom-input-components',
+			name: 'custom input components',
+			component: () => import('@/views/CustomInputComponents.vue')
 		}
 	]
 });
