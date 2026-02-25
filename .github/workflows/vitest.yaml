@@ -26,4 +26,4 @@ jobs:
         # Set if: always() to also generate the report if tests are failing
         # Only works if you set `reportOnFailure: true` in your vite config as specified above
         if: 'always()'
-        uses: 'davelosert/vitest-coverage-report-action@15b5b41bb7d36796d89f4bf482b09529c53f3446'
+        uses: 'davelosert/vitest-coverage-report-action@2500dafcee7dd64f85ab689c0b83798a8359770e'
